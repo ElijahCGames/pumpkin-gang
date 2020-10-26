@@ -101,6 +101,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585978737764775808
     List: []
-  ExpandedItems: []
+  ExpandedItems:
+  - /Pumpkin Rolling_WwiseProject
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
