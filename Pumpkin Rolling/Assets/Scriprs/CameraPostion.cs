@@ -19,7 +19,7 @@ public class CameraPostion : MonoBehaviour
     [SerializeField, Range(1f, 360f)]
     float rotationSpeed = 90f;
 
-
+    public bool isMoving = true;
     public float MouseSensitivity;
 
     [SerializeField, Range(-89f, 89f)]
@@ -41,11 +41,11 @@ public class CameraPostion : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Escape))
         {
-            Screen.lockCursor = false;
+            Cursor.lockState = CursorLockMode.None;
         }
         else
         {
-            Screen.lockCursor = true;
+            Cursor.lockState = CursorLockMode.Locked;
         }
     }
 
@@ -65,7 +65,14 @@ public class CameraPostion : MonoBehaviour
             lookRotation = transform.localRotation;
         }
         Vector3 lookDirection = lookRotation * Vector3.forward;
-        Vector3 lookPosition = focusPoint - lookDirection * distance;
+        Vector3 lookPosition;
+
+        if (isMoving) {lookPosition = focusPoint - lookDirection * distance;}
+        else
+        {
+            lookPosition = transform.position;
+        }
+        
         transform.SetPositionAndRotation(lookPosition, lookRotation);
     }
 
