@@ -5051,7 +5051,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 670224309865224971, guid: 81d15f03edd064792860316f7d0f9c80, type: 3}
+  - {fileID: 2100000, guid: 00b7e0d5e9b8d4914839d4c48a3a9905, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6058,7 +6058,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.2
+  m_Intensity: 0.5
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.802082
@@ -8316,7 +8316,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 91.00255, y: -15.337524}
+  m_AnchoredPosition: {x: 91.00244, y: -15.337402}
   m_SizeDelta: {x: 234.90405, y: 127.42059}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1795718011
