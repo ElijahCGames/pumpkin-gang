@@ -12,6 +12,7 @@ public class Roll : MonoBehaviour
     public CameraPostion mainCamera;
 
     public float movementForce;
+
     private float push;
     public float jump;
 
@@ -23,6 +24,9 @@ public class Roll : MonoBehaviour
 
     private float lastVel;
     private float air = 1;
+
+    public delegate void CandyCollected();
+    public static event CandyCollected OnCollect;
 
     private void Start()
     {
@@ -80,6 +84,12 @@ public class Roll : MonoBehaviour
         }
         else if(other.CompareTag("Finish")){
             other.GetComponent<PlayableDirector>().Play();
+        }else if(other.CompareTag("Candy")){
+            if(OnCollect != null)
+            {
+                OnCollect();
+                other.gameObject.SetActive(false);
+            }
         }
 
 

@@ -16,5 +16,28 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
+		<SoundBank Id="1546231383" Language="SFX" Hash="1241140700">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music_Bank</ObjectPath>
+			<ShortName>Music_Bank</ShortName>
+			<Path>Music_Bank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3216187367" Name="Play_pumpkin_game" ObjectPath="\Events\Default Work Unit\Play_pumpkin_game" DurationType="OneShot" DurationMin="24.000000" DurationMax="24.000000">
+					<IncludedMemoryFiles>
+						<File Id="416115940" Language="SFX">
+							<ShortName>Music\pumpkin game .wav</ShortName>
+							<Path>SFX/Music/pumpkin game _D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="935195983" Name="Play_Pumpkin_Track1" ObjectPath="\Events\Default Work Unit\Play_Pumpkin_Track1" DurationType="OneShot" DurationMin="40.851082" DurationMax="40.851082">
+					<IncludedMemoryFiles>
+						<File Id="829290462" Language="SFX">
+							<ShortName>Music\Pumpkin_Track1.wav</ShortName>
+							<Path>SFX/Music/Pumpkin_Track1_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	935195983	Play_Pumpkin_Track1			\Default Work Unit\Play_Pumpkin_Track1	
+	3216187367	Play_pumpkin_game			\Default Work Unit\Play_pumpkin_game	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	416115940	pumpkin game 	Y:\Game Projects\PumpkinGang\pumpkin-gang\Pumpkin Rolling\Pumpkin Rolling_WwiseProject\.cache\Mac\SFX\Music\pumpkin game _D79FB2B7.wem		\Interactive Music Hierarchy\GameMusic\Music\pumpkin game\pumpkin game 		4233744
+	829290462	Pumpkin_Track1	Y:\Game Projects\PumpkinGang\pumpkin-gang\Pumpkin Rolling\Pumpkin Rolling_WwiseProject\.cache\Mac\SFX\Music\Pumpkin_Track1_D79FB2B7.wem		\Interactive Music Hierarchy\GameMusic\Music\Pumpkin_Track1\Pumpkin_Track1		7843472
+

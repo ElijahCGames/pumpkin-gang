@@ -49,8 +49,17 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 62d0857ab063ba4a9e1d0861f005ce27
     GuidInternal: 
-    m_lastTime: -8585978737764775808
-    List: []
+    m_lastTime: -8585976858844775808
+    List:
+    - name: Music_Bank
+      guid: 1e26c1f040e02642807edff5edb4f240
+      id: 1546231383
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music_Bank
+        ObjectType: 7
+      Path: Default Work Unit/Music_Bank
   EventWwu:
   - PhysicalPath: Events/Default Work Unit.wwu
     PathAndIcons:
@@ -59,8 +68,32 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 9332131a9a827746a8bfe918375f9e9b
     GuidInternal: 
-    m_lastTime: -8585978737764775808
-    List: []
+    m_lastTime: -8585976859664775808
+    List:
+    - name: Play_pumpkin_game
+      guid: 7737fbf32a77d1408fcb51ab6aab21bc
+      id: 3216187367
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_pumpkin_game
+        ObjectType: 3
+      Path: Default Work Unit/Play_pumpkin_game
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Pumpkin_Track1
+      guid: c194b030ec5e1346b1a46fd67138989f
+      id: 935195983
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Pumpkin_Track1
+        ObjectType: 3
+      Path: Default Work Unit/Play_Pumpkin_Track1
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters/Default Work Unit.wwu
     PathAndIcons:
@@ -79,7 +112,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 73862cf5b3234143a29021c9d1e1c553
     GuidInternal: 
-    m_lastTime: -8585978737764775808
+    m_lastTime: -8585976864324775808
     List: []
   SwitchWwu:
   - PhysicalPath: Switches/Default Work Unit.wwu
@@ -103,5 +136,9 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /Pumpkin Rolling_WwiseProject
+  - /Pumpkin Rolling_WwiseProject/Events
+  - /Pumpkin Rolling_WwiseProject/Events/Default Work Unit
+  - /Pumpkin Rolling_WwiseProject/SoundBanks
+  - /Pumpkin Rolling_WwiseProject/SoundBanks/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

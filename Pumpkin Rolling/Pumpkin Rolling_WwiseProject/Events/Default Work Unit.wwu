@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{1A133293-829A-4677-A8BF-E918375F9E9B}" SchemaVersion="97">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{1A133293-829A-4677-A8BF-E918375F9E9B}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{1A133293-829A-4677-A8BF-E918375F9E9B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_pumpkin_game" ID="{F3FB3777-772A-40D1-8FCB-51AB6AAB21BC}">
+					<ChildrenList>
+						<Action Name="" ID="{B8F6A0D7-26FC-4833-95BE-422FE98D56AA}" ShortID="848297418">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="pumpkin game" ID="{2DF10B05-D593-4A89-8CAA-C0C81BAC3A80}" WorkUnitID="{89F65146-A79B-4A6F-B096-126BE28F864F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Pumpkin_Track1" ID="{30B094C1-5EEC-4613-B1A4-6FD67138989F}">
+					<ChildrenList>
+						<Action Name="" ID="{DBCAC1CA-0B63-463C-96FA-E31CD170A902}" ShortID="119150643">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pumpkin_Track1" ID="{46A5937F-3140-4789-9A31-C481275D0351}" WorkUnitID="{89F65146-A79B-4A6F-B096-126BE28F864F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
