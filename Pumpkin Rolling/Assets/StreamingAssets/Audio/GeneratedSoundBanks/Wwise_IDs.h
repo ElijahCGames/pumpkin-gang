@@ -13,9 +13,17 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID PLAY_PUMPKIN_GAME = 3216187367U;
-        static const AkUniqueID PLAY_PUMPKIN_TRACK1 = 935195983U;
+        static const AkUniqueID PLAY_LEVEL_1 = 833230064U;
+        static const AkUniqueID PLAY_LEVEL_2 = 833230067U;
+        static const AkUniqueID STOP_ALL = 452547817U;
+        static const AkUniqueID STOP_LEVEL_1 = 2281158242U;
     } // namespace EVENTS
+
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID CANDY_COUNT = 3633174536U;
+        static const AkUniqueID PUMPSPEED = 153087400U;
+    } // namespace GAME_PARAMETERS
 
     namespace BANKS
     {
