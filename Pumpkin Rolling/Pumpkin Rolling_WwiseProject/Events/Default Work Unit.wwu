@@ -3,17 +3,6 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{1A133293-829A-4677-A8BF-E918375F9E9B}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_Level_1" ID="{8B487276-7366-44A2-9A04-37DD05F061ED}">
-					<ChildrenList>
-						<Action Name="" ID="{7044F2D2-8F7B-4D4C-ADAE-BC8A91B7A57E}" ShortID="1043591528">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Level_1" ID="{B7231DDA-A525-442A-9F35-19FB604B4A64}" WorkUnitID="{89F65146-A79B-4A6F-B096-126BE28F864F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="STOP_ALL" ID="{A1D76DC0-2872-4DE3-AF44-AC2EE3AA559F}">
 					<ChildrenList>
 						<Action Name="" ID="{0C34E297-8082-4BA8-B2C3-2813F3420121}" ShortID="532333002">
@@ -24,33 +13,59 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Stop_Level_1" ID="{4CE612CD-8CEC-47F7-B379-33A9B8FE893A}">
+				<Folder Name="Music" ID="{B1C94447-77B0-4481-A9D9-E567CF341A11}" ShortID="443457454">
 					<ChildrenList>
-						<Action Name="" ID="{7E1896E6-4AE5-44A4-BFFA-EB1153EBD0F7}" ShortID="651805659">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="FadeOutCurve" Type="int16" Value="5"/>
-								<Property Name="FadeTime" Type="Real64" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Level_1" ID="{B7231DDA-A525-442A-9F35-19FB604B4A64}" WorkUnitID="{89F65146-A79B-4A6F-B096-126BE28F864F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Stop_Music" ID="{4CE612CD-8CEC-47F7-B379-33A9B8FE893A}">
+							<ChildrenList>
+								<Action Name="" ID="{7E1896E6-4AE5-44A4-BFFA-EB1153EBD0F7}" ShortID="651805659">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music" ID="{C76538BC-58C2-4051-8627-32A08386B2E2}" WorkUnitID="{89F65146-A79B-4A6F-B096-126BE28F864F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Level_1" ID="{8B487276-7366-44A2-9A04-37DD05F061ED}">
+							<ChildrenList>
+								<Action Name="" ID="{7044F2D2-8F7B-4D4C-ADAE-BC8A91B7A57E}" ShortID="1043591528">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Level_1" ID="{B7231DDA-A525-442A-9F35-19FB604B4A64}" WorkUnitID="{89F65146-A79B-4A6F-B096-126BE28F864F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Level_2" ID="{57DE7FF2-EDD2-42E2-88A7-EE08D5EA0D05}">
+							<ChildrenList>
+								<Action Name="" ID="{B7669901-E213-4EE0-A17B-5771F3341A83}" ShortID="508843141">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Level_2" ID="{E89B8FA3-702F-4160-8C95-DF5E759CA991}" WorkUnitID="{89F65146-A79B-4A6F-B096-126BE28F864F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Level_3" ID="{329F7ABE-D0FD-4DB1-BD91-0C3EF68EF9A5}">
+							<ChildrenList>
+								<Action Name="" ID="{22451B53-D31B-404A-ADAB-899B60079D5F}" ShortID="536056951">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Level_3" ID="{C2171BF8-1066-464C-BC70-1432292E6225}" WorkUnitID="{89F65146-A79B-4A6F-B096-126BE28F864F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="Play_Level_2" ID="{57DE7FF2-EDD2-42E2-88A7-EE08D5EA0D05}">
-					<ChildrenList>
-						<Action Name="" ID="{B7669901-E213-4EE0-A17B-5771F3341A83}" ShortID="508843141">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Level_2" ID="{E89B8FA3-702F-4160-8C95-DF5E759CA991}" WorkUnitID="{89F65146-A79B-4A6F-B096-126BE28F864F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
