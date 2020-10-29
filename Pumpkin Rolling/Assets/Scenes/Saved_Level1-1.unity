@@ -1220,6 +1220,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -8298032230549351859, guid: f4eed67917f2e4cb5ab90034d03c9df5,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 856f427ec87bc46d1a4a5fabc3d5f641, type: 2}
     - target: {fileID: -1253996098385199550, guid: f4eed67917f2e4cb5ab90034d03c9df5,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -1300,6 +1305,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7071182760956848314, guid: f4eed67917f2e4cb5ab90034d03c9df5,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 856f427ec87bc46d1a4a5fabc3d5f641, type: 2}
+    - target: {fileID: 7202271454713460447, guid: f4eed67917f2e4cb5ab90034d03c9df5,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 856f427ec87bc46d1a4a5fabc3d5f641, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4eed67917f2e4cb5ab90034d03c9df5, type: 3}
 --- !u!1 &315323369
@@ -3678,7 +3693,7 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: Level1-2
+            m_StringArgument: Saved_Level1-2
             m_BoolArgument: 0
           m_CallState: 2
 --- !u!114 &1021961850
