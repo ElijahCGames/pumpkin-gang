@@ -1,43 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>/Users/elijah/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Game Projects/PumpkinGang/pumpkin-gang/Pumpkin Rolling/Pumpkin Rolling_WwiseProject/</ProjectRoot>
-		<SourceFilesRoot>/Users/elijah/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Game Projects/PumpkinGang/pumpkin-gang/Pumpkin Rolling/Pumpkin Rolling_WwiseProject/.cache/Mac/</SourceFilesRoot>
-		<SoundBanksRoot>/Users/elijah/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Game Projects/PumpkinGang/pumpkin-gang/Pumpkin Rolling/Pumpkin Rolling_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ProjectRoot>/Users/benlipkin/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Manual Backup/GAMES/GAMEJAM/Pumpkin/pumpkin-gang-main/Pumpkin Rolling/Pumpkin Rolling_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/benlipkin/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Manual Backup/GAMES/GAMEJAM/Pumpkin/pumpkin-gang-main/Pumpkin Rolling/Pumpkin Rolling_WwiseProject/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/benlipkin/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Manual Backup/GAMES/GAMEJAM/Pumpkin/pumpkin-gang-main/Pumpkin Rolling/Pumpkin Rolling_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>/Users/elijah/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Game Projects/PumpkinGang/pumpkin-gang/Pumpkin Rolling/Pumpkin Rolling_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>/Users/benlipkin/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Manual Backup/GAMES/GAMEJAM/Pumpkin/pumpkin-gang-main/Pumpkin Rolling/Pumpkin Rolling_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2953616821">
+		<SoundBank Id="1355168291" Language="SFX" Hash="768219175">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1546231383" Language="SFX" Hash="1241140700">
+		<SoundBank Id="1546231383" Language="SFX" Hash="435469943">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music_Bank</ObjectPath>
 			<ShortName>Music_Bank</ShortName>
 			<Path>Music_Bank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3216187367" Name="Play_pumpkin_game" ObjectPath="\Events\Default Work Unit\Play_pumpkin_game" DurationType="OneShot" DurationMin="24.000000" DurationMax="24.000000">
+				<Event Id="833230064" Name="Play_Level_1" ObjectPath="\Events\Default Work Unit\Play_Level_1" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="416115940" Language="SFX">
-							<ShortName>Music\pumpkin game .wav</ShortName>
-							<Path>SFX/Music/pumpkin game _D79FB2B7.wem</Path>
+						<File Id="601470438" Language="SFX">
+							<ShortName>mx_level1_t094_b16_a.wav</ShortName>
+							<Path>SFX/mx_level1_t094_b16_a_D79FB2B7.wem</Path>
+						</File>
+						<File Id="749079644" Language="SFX">
+							<ShortName>mx_level1_t094_b16_c.wav</ShortName>
+							<Path>SFX/mx_level1_t094_b16_c_D79FB2B7.wem</Path>
+						</File>
+						<File Id="898675871" Language="SFX">
+							<ShortName>mx_level1_t094_b16_b.wav</ShortName>
+							<Path>SFX/mx_level1_t094_b16_b_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="935195983" Name="Play_Pumpkin_Track1" ObjectPath="\Events\Default Work Unit\Play_Pumpkin_Track1" DurationType="OneShot" DurationMin="40.851082" DurationMax="40.851082">
-					<IncludedMemoryFiles>
-						<File Id="829290462" Language="SFX">
-							<ShortName>Music\Pumpkin_Track1.wav</ShortName>
-							<Path>SFX/Music/Pumpkin_Track1_D79FB2B7.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
+				<Event Id="452547817" Name="STOP_ALL" ObjectPath="\Events\Default Work Unit\STOP_ALL" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2281158242" Name="Stop_Level_1" ObjectPath="\Events\Default Work Unit\Stop_Level_1" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="153087400" Name="pumpSpeed" ObjectPath="\Game Parameters\Default Work Unit\pumpSpeed"/>
+				<GameParameter Id="3633174536" Name="Candy_Count" ObjectPath="\Game Parameters\Default Work Unit\Candy_Count"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

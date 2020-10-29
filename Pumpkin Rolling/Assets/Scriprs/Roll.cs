@@ -5,7 +5,7 @@ using UnityEngine.Playables;
 
 public class Roll : MonoBehaviour
 {
-    
+
     public Animator anim;
     public Transform mesh;
     public Transform movement;
@@ -40,7 +40,7 @@ public class Roll : MonoBehaviour
         float x = Input.GetAxis("Horizontal");
         float y = Input.GetAxis("Vertical");
 
-        if(rb.velocity.magnitude < lastVel)
+        if (rb.velocity.magnitude < lastVel)
         {
             push *= 2;
         }
@@ -55,6 +55,12 @@ public class Roll : MonoBehaviour
         }
 
         lastVel = rb.velocity.magnitude;
+
+        float speed = lastVel;
+
+        AkSoundEngine.SetRTPCValue("pumpSpeed", speed, GameObject.Find("pumpkinMover"), 0001);
+
+
     }
 
     private void Update()
@@ -76,16 +82,20 @@ public class Roll : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Respawn")){
+        if (other.CompareTag("Respawn"))
+        {
             mainCamera.isMoving = false;
 
             StartCoroutine("FlyAway");
 
         }
-        else if(other.CompareTag("Finish")){
+        else if (other.CompareTag("Finish"))
+        {
             other.GetComponent<PlayableDirector>().Play();
-        }else if(other.CompareTag("Candy")){
-            if(OnCollect != null)
+        }
+        else if (other.CompareTag("Candy"))
+        {
+            if (OnCollect != null)
             {
                 OnCollect();
                 other.gameObject.SetActive(false);
@@ -102,3 +112,6 @@ public class Roll : MonoBehaviour
         mainCamera.isMoving = true;
     }
 }
+ 
+
+

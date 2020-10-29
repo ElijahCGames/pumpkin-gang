@@ -3,23 +3,49 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{1A133293-829A-4677-A8BF-E918375F9E9B}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_pumpkin_game" ID="{F3FB3777-772A-40D1-8FCB-51AB6AAB21BC}">
+				<Event Name="Play_Level_1" ID="{8B487276-7366-44A2-9A04-37DD05F061ED}">
 					<ChildrenList>
-						<Action Name="" ID="{B8F6A0D7-26FC-4833-95BE-422FE98D56AA}" ShortID="848297418">
+						<Action Name="" ID="{7044F2D2-8F7B-4D4C-ADAE-BC8A91B7A57E}" ShortID="1043591528">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="pumpkin game" ID="{2DF10B05-D593-4A89-8CAA-C0C81BAC3A80}" WorkUnitID="{89F65146-A79B-4A6F-B096-126BE28F864F}"/>
+									<ObjectRef Name="Level_1" ID="{B7231DDA-A525-442A-9F35-19FB604B4A64}" WorkUnitID="{89F65146-A79B-4A6F-B096-126BE28F864F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Pumpkin_Track1" ID="{30B094C1-5EEC-4613-B1A4-6FD67138989F}">
+				<Event Name="STOP_ALL" ID="{A1D76DC0-2872-4DE3-AF44-AC2EE3AA559F}">
 					<ChildrenList>
-						<Action Name="" ID="{DBCAC1CA-0B63-463C-96FA-E31CD170A902}" ShortID="119150643">
+						<Action Name="" ID="{0C34E297-8082-4BA8-B2C3-2813F3420121}" ShortID="532333002">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Level_1" ID="{4CE612CD-8CEC-47F7-B379-33A9B8FE893A}">
+					<ChildrenList>
+						<Action Name="" ID="{7E1896E6-4AE5-44A4-BFFA-EB1153EBD0F7}" ShortID="651805659">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Pumpkin_Track1" ID="{46A5937F-3140-4789-9A31-C481275D0351}" WorkUnitID="{89F65146-A79B-4A6F-B096-126BE28F864F}"/>
+									<ObjectRef Name="Level_1" ID="{B7231DDA-A525-442A-9F35-19FB604B4A64}" WorkUnitID="{89F65146-A79B-4A6F-B096-126BE28F864F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Level_2" ID="{57DE7FF2-EDD2-42E2-88A7-EE08D5EA0D05}">
+					<ChildrenList>
+						<Action Name="" ID="{B7669901-E213-4EE0-A17B-5771F3341A83}" ShortID="508843141">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Level_2" ID="{E89B8FA3-702F-4160-8C95-DF5E759CA991}" WorkUnitID="{89F65146-A79B-4A6F-B096-126BE28F864F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
