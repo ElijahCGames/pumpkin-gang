@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{92DB127B-5F3D-4551-BA88-07BC4EE8094B}" SchemaVersion="97">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{92DB127B-5F3D-4551-BA88-07BC4EE8094B}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{92DB127B-5F3D-4551-BA88-07BC4EE8094B}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Candy_Count" ID="{D9E91E6E-D4E0-4A86-B196-D986B21176DD}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="10"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="pumpSpeed" ID="{6C743A28-2F02-4EAC-903C-C28F7F35E2B3}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="15"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

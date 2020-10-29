@@ -39,6 +39,10 @@ public class AddScores : MonoBehaviour
         score += 1;
         text.text = score.ToString();
 
+      
+
+        AkSoundEngine.SetRTPCValue("Candy_Count", score, GameObject.Find("pumpkinMover"), 0100);
+
         if(score >= winScore)
         {
             cap.SetActive(false);

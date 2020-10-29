@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{244E4F04-3FF6-4B7B-B562-156C33F89FD4}" SchemaVersion="97">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{244E4F04-3FF6-4B7B-B562-156C33F89FD4}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{244E4F04-3FF6-4B7B-B562-156C33F89FD4}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Level 1 test" ID="{CB143094-71CA-4C6A-9E45-35F876184C75}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Level_1" ID="{8B487276-7366-44A2-9A04-37DD05F061ED}" WorkUnitID="{1A133293-829A-4677-A8BF-E918375F9E9B}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Level_1" ID="{4CE612CD-8CEC-47F7-B379-33A9B8FE893A}" WorkUnitID="{1A133293-829A-4677-A8BF-E918375F9E9B}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Candy_Count" ID="{D9E91E6E-D4E0-4A86-B196-D986B21176DD}"/>
+							<Value>10</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="pumpSpeed" ID="{6C743A28-2F02-4EAC-903C-C28F7F35E2B3}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

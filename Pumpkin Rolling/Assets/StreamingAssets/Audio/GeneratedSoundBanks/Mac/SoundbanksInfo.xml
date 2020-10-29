@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>/Users/benlipkin/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Manual Backup/GAMES/GAMEJAM/Pumpkin/pumpkin-gang-main/Pumpkin Rolling/Pumpkin Rolling_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/benlipkin/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Manual Backup/GAMES/GAMEJAM/Pumpkin/pumpkin-gang-main/Pumpkin Rolling/Pumpkin Rolling_WwiseProject/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/benlipkin/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Manual Backup/GAMES/GAMEJAM/Pumpkin/pumpkin-gang-main/Pumpkin Rolling/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/benlipkin/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Manual Backup/GAMES/GAMEJAM/Pumpkin/pumpkin-gang-main/Pumpkin Rolling/Pumpkin Rolling_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="768219175">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1546231383" Language="SFX" Hash="3667929964">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music_Bank</ObjectPath>
+			<ShortName>Music_Bank</ShortName>
+			<Path>Music_Bank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="833230064" Name="Play_Level_1" ObjectPath="\Events\Default Work Unit\Play_Level_1">
+					<IncludedMemoryFiles>
+						<File Id="601470438" Language="SFX">
+							<ShortName>mx_level1_t094_b16_a.wav</ShortName>
+							<Path>SFX/mx_level1_t094_b16_a_D79FB2B7.wem</Path>
+						</File>
+						<File Id="749079644" Language="SFX">
+							<ShortName>mx_level1_t094_b16_c.wav</ShortName>
+							<Path>SFX/mx_level1_t094_b16_c_D79FB2B7.wem</Path>
+						</File>
+						<File Id="898675871" Language="SFX">
+							<ShortName>mx_level1_t094_b16_b.wav</ShortName>
+							<Path>SFX/mx_level1_t094_b16_b_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="833230067" Name="Play_Level_2" ObjectPath="\Events\Default Work Unit\Play_Level_2"/>
+				<Event Id="452547817" Name="STOP_ALL" ObjectPath="\Events\Default Work Unit\STOP_ALL"/>
+				<Event Id="2281158242" Name="Stop_Level_1" ObjectPath="\Events\Default Work Unit\Stop_Level_1"/>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="153087400" Name="pumpSpeed" ObjectPath="\Game Parameters\Default Work Unit\pumpSpeed"/>
+				<GameParameter Id="3633174536" Name="Candy_Count" ObjectPath="\Game Parameters\Default Work Unit\Candy_Count"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
