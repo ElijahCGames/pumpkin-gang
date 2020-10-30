@@ -10,14 +10,26 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Stop_Level_1" ID="{4CE612CD-8CEC-47F7-B379-33A9B8FE893A}" WorkUnitID="{1A133293-829A-4677-A8BF-E918375F9E9B}"/>
+							<ObjectRef Name="Play_Level_1" ID="{8B487276-7366-44A2-9A04-37DD05F061ED}" WorkUnitID="{1A133293-829A-4677-A8BF-E918375F9E9B}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Music" ID="{4CE612CD-8CEC-47F7-B379-33A9B8FE893A}" WorkUnitID="{1A133293-829A-4677-A8BF-E918375F9E9B}"/>
 							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Level_2" ID="{57DE7FF2-EDD2-42E2-88A7-EE08D5EA0D05}" WorkUnitID="{1A133293-829A-4677-A8BF-E918375F9E9B}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Level_3" ID="{329F7ABE-D0FD-4DB1-BD91-0C3EF68EF9A5}" WorkUnitID="{1A133293-829A-4677-A8BF-E918375F9E9B}"/>
+							<Position X="2" Y="1"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="Candy_Count" ID="{D9E91E6E-D4E0-4A86-B196-D986B21176DD}"/>
-							<Value>10</Value>
+							<Value>9.1</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="pumpSpeed" ID="{6C743A28-2F02-4EAC-903C-C28F7F35E2B3}"/>
