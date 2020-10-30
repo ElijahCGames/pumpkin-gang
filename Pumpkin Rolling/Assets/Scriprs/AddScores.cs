@@ -22,6 +22,7 @@ public class AddScores : MonoBehaviour
     {
         text = GetComponent<Text>();
         winText.text = "/" + winScore.ToString();
+        AkSoundEngine.SetRTPCValue("Candy_Count", 0, pumpkin, 0100);
 
     }
 

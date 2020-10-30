@@ -2023,6 +2023,7 @@ GameObject:
   - component: {fileID: 844839185}
   - component: {fileID: 844839187}
   - component: {fileID: 844839184}
+  - component: {fileID: 844839188}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2123,6 +2124,18 @@ MonoBehaviour:
     positionOffset: {x: 0, y: 0, z: 0}
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
+--- !u!114 &844839188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844839183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7fb2de9c3e13498ca8a2e9e443b12e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &931953296
 GameObject:
   m_ObjectHideFlags: 0
@@ -2361,6 +2374,23 @@ PlayableDirector:
     value: {fileID: 2022172934}
   m_ExposedReferences:
     m_References: []
+--- !u!114 &962895183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962895180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 316bbdf2339d340a88e8db24adc792f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e7d2e8dc9718f443b83985c351532efc,
+      type: 2}
 --- !u!114 &962895185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5597,7 +5627,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 2022172937}
   m_OnClick:
     m_PersistentCalls:
@@ -5611,6 +5641,17 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: MainMenu
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 962895183}
+        m_MethodName: StopEvent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2022172937

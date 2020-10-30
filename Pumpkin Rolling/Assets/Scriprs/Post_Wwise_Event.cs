@@ -12,9 +12,8 @@ public class Post_Wwise_Event : MonoBehaviour
        myEvent.Post(gameObject);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void StopEvent()
     {
-        
+        myEvent.Stop(gameObject);
     }
 }
