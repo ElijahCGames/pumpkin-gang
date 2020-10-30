@@ -20,7 +20,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: c85d67502fd4a74d85507babb0702211
     GuidInternal: 
-    m_lastTime: -8585978737764775808
+    m_lastTime: -8585976197544775808
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
@@ -30,7 +30,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 76532a2196efce4db29a925dc2720c79
     GuidInternal: 
-    m_lastTime: -8585978737764775808
+    m_lastTime: -8585976197544775808
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -49,7 +49,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 62d0857ab063ba4a9e1d0861f005ce27
     GuidInternal: 
-    m_lastTime: -8585976858844775808
+    m_lastTime: -8585976062924775808
     List:
     - name: Music_Bank
       guid: 1e26c1f040e02642807edff5edb4f240
@@ -68,32 +68,56 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 9332131a9a827746a8bfe918375f9e9b
     GuidInternal: 
-    m_lastTime: -8585976859664775808
+    m_lastTime: -8585976062934775808
     List:
-    - name: Play_pumpkin_game
-      guid: 7737fbf32a77d1408fcb51ab6aab21bc
-      id: 3216187367
+    - name: Play_Level_1
+      guid: 7672488b6673a2449a0437dd05f061ed
+      id: 833230064
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Play_pumpkin_game
+      - ElementName: Play_Level_1
         ObjectType: 3
-      Path: Default Work Unit/Play_pumpkin_game
+      Path: Default Work Unit/Play_Level_1
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_Pumpkin_Track1
-      guid: c194b030ec5e1346b1a46fd67138989f
-      id: 935195983
+    - name: Play_Level_2
+      guid: f27fde57d2ede24288a7ee08d5ea0d05
+      id: 833230067
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Play_Pumpkin_Track1
+      - ElementName: Play_Level_2
         ObjectType: 3
-      Path: Default Work Unit/Play_Pumpkin_Track1
+      Path: Default Work Unit/Play_Level_2
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
+    - name: STOP_ALL
+      guid: c06dd7a17228e34daf44ac2ee3aa559f
+      id: 452547817
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: STOP_ALL
+        ObjectType: 3
+      Path: Default Work Unit/STOP_ALL
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Level_1
+      guid: cd12e64cec8cf747b37933a9b8fe893a
+      id: 2281158242
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_Level_1
+        ObjectType: 3
+      Path: Default Work Unit/Stop_Level_1
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters/Default Work Unit.wwu
     PathAndIcons:
@@ -102,8 +126,26 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 7b12db923d5f5145ba8807bc4ee8094b
     GuidInternal: 
-    m_lastTime: -8585978737764775808
-    List: []
+    m_lastTime: -8585976062934775808
+    List:
+    - name: Candy_Count
+      guid: 6e1ee9d9e0d4864ab196d986b21176dd
+      id: 3633174536
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Candy_Count
+        ObjectType: 13
+      Path: Default Work Unit/Candy_Count
+    - name: pumpSpeed
+      guid: 283a746c022fac4e903cc28f7f35e2b3
+      id: 153087400
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: pumpSpeed
+        ObjectType: 13
+      Path: Default Work Unit/pumpSpeed
   StateWwu:
   - PhysicalPath: States/Default Work Unit.wwu
     PathAndIcons:
@@ -112,7 +154,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 73862cf5b3234143a29021c9d1e1c553
     GuidInternal: 
-    m_lastTime: -8585976864324775808
+    m_lastTime: -8585976197544775808
     List: []
   SwitchWwu:
   - PhysicalPath: Switches/Default Work Unit.wwu
@@ -122,7 +164,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 618bab0298369146981c330a98bce227
     GuidInternal: 
-    m_lastTime: -8585978737764775808
+    m_lastTime: -8585976197544775808
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers/Default Work Unit.wwu
@@ -132,7 +174,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 0a1f858198455749a474611d21c2a2db
     GuidInternal: 
-    m_lastTime: -8585978737764775808
+    m_lastTime: -8585976197544775808
     List: []
   ExpandedItems:
   - /Pumpkin Rolling_WwiseProject

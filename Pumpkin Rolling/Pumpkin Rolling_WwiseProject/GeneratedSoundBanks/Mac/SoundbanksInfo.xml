@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>/Users/benlipkin/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Manual Backup/GAMES/GAMEJAM/Pumpkin/pumpkin-gang-main/Pumpkin Rolling/Pumpkin Rolling_WwiseProject/</ProjectRoot>
-		<SourceFilesRoot>/Users/benlipkin/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Manual Backup/GAMES/GAMEJAM/Pumpkin/pumpkin-gang-main/Pumpkin Rolling/Pumpkin Rolling_WwiseProject/.cache/Mac/</SourceFilesRoot>
-		<SoundBanksRoot>/Users/benlipkin/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Manual Backup/GAMES/GAMEJAM/Pumpkin/pumpkin-gang-main/Pumpkin Rolling/Pumpkin Rolling_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ProjectRoot>/Users/elijah/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Game Projects/PumpkinGang/pumpkin-gang/Pumpkin Rolling/Pumpkin Rolling_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/elijah/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Game Projects/PumpkinGang/pumpkin-gang/Pumpkin Rolling/Pumpkin Rolling_WwiseProject/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/elijah/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Game Projects/PumpkinGang/pumpkin-gang/Pumpkin Rolling/Pumpkin Rolling_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>/Users/benlipkin/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Manual Backup/GAMES/GAMEJAM/Pumpkin/pumpkin-gang-main/Pumpkin Rolling/Pumpkin Rolling_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>/Users/elijah/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Game Projects/PumpkinGang/pumpkin-gang/Pumpkin Rolling/Pumpkin Rolling_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1546231383" Language="SFX" Hash="435469943">
+		<SoundBank Id="1546231383" Language="SFX" Hash="701212634">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music_Bank</ObjectPath>
 			<ShortName>Music_Bank</ShortName>
 			<Path>Music_Bank.bnk</Path>
@@ -37,6 +37,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="833230067" Name="Play_Level_2" ObjectPath="\Events\Default Work Unit\Play_Level_2" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="452547817" Name="STOP_ALL" ObjectPath="\Events\Default Work Unit\STOP_ALL" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2281158242" Name="Stop_Level_1" ObjectPath="\Events\Default Work Unit\Stop_Level_1" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
