@@ -66,6 +66,54 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Game" ID="{A4F2B0AE-01D8-49E5-8940-76DB0094FCC3}" ShortID="452110795">
+					<ChildrenList>
+						<Event Name="Play_pumpkin_jump__land" ID="{31F89FB0-EDD0-43D5-AA4C-80FDF6784BDF}">
+							<ChildrenList>
+								<Action Name="" ID="{61839570-4F44-41E7-A34E-4EF19D99B2A0}" ShortID="803712148">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="pumpkin jump  land" ID="{6291CEB5-D92B-4E68-8849-3783D992F2D8}" WorkUnitID="{71023D9D-DF0A-4704-A075-0E06C26F00F6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_pumpkin_candy" ID="{4E6AC4B2-C7F5-4AE0-AC51-218325233E00}">
+							<ChildrenList>
+								<Action Name="" ID="{9E998D07-F031-4B65-8F29-BCCB9FD599C2}" ShortID="600742493">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="pumpkin candy" ID="{EF7F7010-A90C-4C11-864A-79C56144960E}" WorkUnitID="{71023D9D-DF0A-4704-A075-0E06C26F00F6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_pumpkin_cannon" ID="{DD107587-74C1-4F63-9CDD-5B4734B67F88}">
+							<ChildrenList>
+								<Action Name="" ID="{BC33342B-2331-411F-8D9F-07F2E947BA46}" ShortID="333613308">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="pumpkin cannon" ID="{FFB16E8A-F580-4BDE-A64B-26BEF979F130}" WorkUnitID="{71023D9D-DF0A-4704-A075-0E06C26F00F6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_pumpkin_jump" ID="{04025F06-315B-4FF2-9ED4-04F9F8DE4EAA}">
+							<ChildrenList>
+								<Action Name="" ID="{3D3EFE47-A0D0-4BA2-B2BE-45E2401FA9E8}" ShortID="212371885">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="pumpkin jump" ID="{97C785CB-BFD7-45CE-B53B-D7252A5014E0}" WorkUnitID="{71023D9D-DF0A-4704-A075-0E06C26F00F6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

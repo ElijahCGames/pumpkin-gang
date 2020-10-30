@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eebc9a333280c48608d9de618a45ff25, type: 3}
+  m_Name: 04025F06-315B-4FF2-9ED4-04F9F8DE4EAA
+  m_EditorClassIdentifier: 
+  objectName: Play_pumpkin_jump
+  id: 2047166105
+  guid: 04025F06-315B-4FF2-9ED4-04F9F8DE4EAA

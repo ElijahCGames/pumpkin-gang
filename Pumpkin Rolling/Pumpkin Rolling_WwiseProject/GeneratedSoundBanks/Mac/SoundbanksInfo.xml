@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1546231383" Language="SFX" Hash="1451932249">
+		<SoundBank Id="1546231383" Language="SFX" Hash="4249499262">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music_Bank</ObjectPath>
 			<ShortName>Music_Bank</ShortName>
 			<Path>Music_Bank.bnk</Path>
@@ -66,6 +66,38 @@
 						<File Id="992534049" Language="SFX">
 							<ShortName>mx_level3_t160_m8_b.wav</ShortName>
 							<Path>SFX/mx_level3_t160_m8_b_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3521204956" Name="Play_pumpkin_candy" ObjectPath="\Events\Default Work Unit\Game\Play_pumpkin_candy" DurationType="OneShot" DurationMin="0.403946" DurationMax="0.403946">
+					<IncludedMemoryFiles>
+						<File Id="630689258" Language="SFX">
+							<ShortName>pumpkin candy.wav</ShortName>
+							<Path>SFX/pumpkin candy_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1338282118" Name="Play_pumpkin_cannon" ObjectPath="\Events\Default Work Unit\Game\Play_pumpkin_cannon" DurationType="OneShot" DurationMin="11.782766" DurationMax="11.782766">
+					<IncludedMemoryFiles>
+						<File Id="468830669" Language="SFX">
+							<ShortName>pumpkin cannon.wav</ShortName>
+							<Path>SFX/pumpkin cannon_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2047166105" Name="Play_pumpkin_jump" ObjectPath="\Events\Default Work Unit\Game\Play_pumpkin_jump" DurationType="OneShot" DurationMin="0.800703" DurationMax="0.800703">
+					<IncludedMemoryFiles>
+						<File Id="284271997" Language="SFX">
+							<ShortName>pumpkin jump.wav</ShortName>
+							<Path>SFX/pumpkin jump_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3622410488" Name="Play_pumpkin_jump__land" ObjectPath="\Events\Default Work Unit\Game\Play_pumpkin_jump__land" DurationType="OneShot" DurationMin="0.455669" DurationMax="0.455669">
+					<IncludedMemoryFiles>
+						<File Id="593235238" Language="SFX">
+							<ShortName>pumpkin jump  land.wav</ShortName>
+							<Path>SFX/pumpkin jump  land_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

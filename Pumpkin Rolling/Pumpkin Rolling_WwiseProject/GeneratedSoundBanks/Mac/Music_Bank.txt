@@ -3,7 +3,11 @@ Event	ID	Name			Wwise Object Path	Notes
 	833230064	Play_Level_1			\Default Work Unit\Music\Play_Level_1	
 	833230066	Play_Level_3			\Default Work Unit\Music\Play_Level_3	
 	833230067	Play_Level_2			\Default Work Unit\Music\Play_Level_2	
+	1338282118	Play_pumpkin_cannon			\Default Work Unit\Game\Play_pumpkin_cannon	
+	2047166105	Play_pumpkin_jump			\Default Work Unit\Game\Play_pumpkin_jump	
 	2837384057	Stop_Music			\Default Work Unit\Music\Stop_Music	
+	3521204956	Play_pumpkin_candy			\Default Work Unit\Game\Play_pumpkin_candy	
+	3622410488	Play_pumpkin_jump__land			\Default Work Unit\Game\Play_pumpkin_jump__land	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	153087400	pumpSpeed			\Default Work Unit\pumpSpeed	
@@ -11,10 +15,14 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	35963672	C	Y:\Game Projects\PumpkinGang\pumpkin-gang\Pumpkin Rolling\Pumpkin Rolling_WwiseProject\.cache\Mac\SFX\mx_level3_t160_m8_c_D79FB2B7.wem		\Interactive Music Hierarchy\GameMusic\Music\Level_3\Level_3\C		2116944
+	284271997	pumpkin jump	Y:\Game Projects\PumpkinGang\pumpkin-gang\Pumpkin Rolling\Pumpkin Rolling_WwiseProject\.cache\Mac\SFX\pumpkin jump_10C4C929.wem		\Actor-Mixer Hierarchy\GameSounds\pumpkin jump		141436
 	355326057	B	Y:\Game Projects\PumpkinGang\pumpkin-gang\Pumpkin Rolling\Pumpkin Rolling_WwiseProject\.cache\Mac\SFX\mx_level2_t090_m32_b_D79FB2B7.wem		\Interactive Music Hierarchy\GameMusic\Music\Level_2\Level_2\B		15052928
 	434067483	C	Y:\Game Projects\PumpkinGang\pumpkin-gang\Pumpkin Rolling\Pumpkin Rolling_WwiseProject\.cache\Mac\SFX\mx_level2_t090_m32_c_D79FB2B7.wem		\Interactive Music Hierarchy\GameMusic\Music\Level_2\Level_2\C		15052928
+	468830669	pumpkin cannon	Y:\Game Projects\PumpkinGang\pumpkin-gang\Pumpkin Rolling\Pumpkin Rolling_WwiseProject\.cache\Mac\SFX\pumpkin cannon_10C4C929.wem		\Actor-Mixer Hierarchy\GameSounds\pumpkin cannon		2078672
 	583293417	A	Y:\Game Projects\PumpkinGang\pumpkin-gang\Pumpkin Rolling\Pumpkin Rolling_WwiseProject\.cache\Mac\SFX\mx_level2_t090_m32_a_D79FB2B7.wem		\Interactive Music Hierarchy\GameMusic\Music\Level_2\Level_2\A		15052928
+	593235238	pumpkin jump  land	Y:\Game Projects\PumpkinGang\pumpkin-gang\Pumpkin Rolling\Pumpkin Rolling_WwiseProject\.cache\Mac\SFX\pumpkin jump  land_10C4C929.wem		\Actor-Mixer Hierarchy\GameSounds\pumpkin jump  land		80524
 	601470438	A	Y:\Game Projects\PumpkinGang\pumpkin-gang\Pumpkin Rolling\Pumpkin Rolling_WwiseProject\.cache\Mac\SFX\mx_level1_t094_b16_a_D79FB2B7.wem		\Interactive Music Hierarchy\GameMusic\Music\Level_1\Level_1\A		8088576
+	630689258	pumpkin candy	Y:\Game Projects\PumpkinGang\pumpkin-gang\Pumpkin Rolling\Pumpkin Rolling_WwiseProject\.cache\Mac\SFX\pumpkin candy_10C4C929.wem		\Actor-Mixer Hierarchy\GameSounds\pumpkin candy		71448
 	702858910	A	Y:\Game Projects\PumpkinGang\pumpkin-gang\Pumpkin Rolling\Pumpkin Rolling_WwiseProject\.cache\Mac\SFX\mx_level3_t160_m8_a_D79FB2B7.wem		\Interactive Music Hierarchy\GameMusic\Music\Level_3\Level_3\A		2116944
 	749079644	C	Y:\Game Projects\PumpkinGang\pumpkin-gang\Pumpkin Rolling\Pumpkin Rolling_WwiseProject\.cache\Mac\SFX\mx_level1_t094_b16_c_D79FB2B7.wem		\Interactive Music Hierarchy\GameMusic\Music\Level_1\Level_1\C		8088576
 	898675871	B	Y:\Game Projects\PumpkinGang\pumpkin-gang\Pumpkin Rolling\Pumpkin Rolling_WwiseProject\.cache\Mac\SFX\mx_level1_t094_b16_b_D79FB2B7.wem		\Interactive Music Hierarchy\GameMusic\Music\Level_1\Level_1\B		8088576

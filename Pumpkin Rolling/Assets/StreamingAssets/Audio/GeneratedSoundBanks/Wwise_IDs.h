@@ -16,6 +16,10 @@ namespace AK
         static const AkUniqueID PLAY_LEVEL_1 = 833230064U;
         static const AkUniqueID PLAY_LEVEL_2 = 833230067U;
         static const AkUniqueID PLAY_LEVEL_3 = 833230066U;
+        static const AkUniqueID PLAY_PUMPKIN_CANDY = 3521204956U;
+        static const AkUniqueID PLAY_PUMPKIN_CANNON = 1338282118U;
+        static const AkUniqueID PLAY_PUMPKIN_JUMP = 2047166105U;
+        static const AkUniqueID PLAY_PUMPKIN_JUMP__LAND = 3622410488U;
         static const AkUniqueID STOP_ALL = 452547817U;
         static const AkUniqueID STOP_MUSIC = 2837384057U;
     } // namespace EVENTS

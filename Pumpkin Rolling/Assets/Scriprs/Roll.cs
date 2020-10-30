@@ -27,6 +27,11 @@ public class Roll : MonoBehaviour
 
     public AK.Wwise.Event stopEvent;
 
+    [Header("Sound SFX")]
+    public AK.Wwise.Event land;
+    public AK.Wwise.Event pumpJump;
+    public AK.Wwise.Event collect;
+
     public delegate void CandyCollected();
     public static event CandyCollected OnCollect;
 
@@ -52,7 +57,7 @@ public class Roll : MonoBehaviour
         {
             rb.AddForce(new Vector3(0, jump, 0));
             anim.SetTrigger("Jump");
-
+            pumpJump.Post(gameObject);
             isGrounded = false;
         }
 
@@ -73,6 +78,10 @@ public class Roll : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
+        if (!isGrounded)
+        {
+            land.Post(gameObject);
+        }
         isGrounded = true;
         air = 1;
     }
@@ -104,6 +113,8 @@ public class Roll : MonoBehaviour
             {
                 OnCollect();
                 other.gameObject.SetActive(false);
+
+                collect.Post(gameObject);
             }
         }
 

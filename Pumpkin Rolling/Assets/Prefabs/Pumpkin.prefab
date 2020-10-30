@@ -123,6 +123,21 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 0145869661aa446258c3e9f690f2f743,
       type: 2}
+  land:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 0a244c8000aeb4bbc8bee3a11506456e,
+      type: 2}
+  pumpJump:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: c43c8c4669d1b4c9da98166a905db10d,
+      type: 2}
+  collect:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 2104a78c5346c44e594f9ebcbd8718b6,
+      type: 2}
 --- !u!135 &1322830391496647178
 SphereCollider:
   m_ObjectHideFlags: 0

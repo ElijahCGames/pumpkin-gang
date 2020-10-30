@@ -4073,6 +4073,8 @@ PlayableDirector:
     value: {fileID: 1293202003}
   - key: {fileID: -686305786796613885, guid: ac71a5c04ab5e4ba6a29b237f8f9dc78, type: 2}
     value: {fileID: 1021961849}
+  - key: {fileID: 3332404425146000551, guid: ac71a5c04ab5e4ba6a29b237f8f9dc78, type: 2}
+    value: {fileID: 1021961844}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1021961848 stripped
@@ -4125,6 +4127,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c393bed6072b84554bccd4b2bc3cadeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1021961851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021961844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 344aefabdec1f41a4bd85d1b88866ee9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1 &1037197344
 GameObject:
   m_ObjectHideFlags: 0
