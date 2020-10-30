@@ -48,7 +48,7 @@ public class Roll : MonoBehaviour
         }
         rb.AddForce(playerInputSpace.TransformDirection(new Vector3(x * push, 0, y * push)));
 
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        if (Input.GetButton("Jump") && isGrounded)
         {
             rb.AddForce(new Vector3(0, jump, 0));
             anim.SetTrigger("Jump");

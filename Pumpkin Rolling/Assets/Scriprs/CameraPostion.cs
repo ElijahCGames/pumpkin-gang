@@ -44,10 +44,12 @@ public class CameraPostion : MonoBehaviour
         if (Input.GetKey(KeyCode.Escape) || !isMoving)
         {
             Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
         }
         else
         {
             Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
         }
     }
 
