@@ -15,6 +15,8 @@ public class AddScores : MonoBehaviour
 
     private Text text;
 
+    public GameObject pumpkin;
+
 
     private void Start()
     {
@@ -41,7 +43,7 @@ public class AddScores : MonoBehaviour
 
       
 
-        AkSoundEngine.SetRTPCValue("Candy_Count", score, GameObject.Find("pumpkinMover"), 0100);
+        AkSoundEngine.SetRTPCValue("Candy_Count", score, pumpkin, 0100);
 
         if(score >= winScore)
         {

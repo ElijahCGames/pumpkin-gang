@@ -5,22 +5,40 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/Level1-1.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/Saved_Level1-1.unity
+    guid: ea1da4c90156248b09f5d07fd49748d6
   - enabled: 1
-    path: Assets/Scenes/Level1-2.unity
-    guid: 776e78df5f820466dab43b444ed18532
+    path: Assets/Scenes/Saved_Level1-2.unity
+    guid: 78ea566dceace47dab59b79ee528bdeb
   - enabled: 1
-    path: Assets/Scenes/Level2-1.unity
-    guid: 92d1140b3c78848218d5e6638ba511d1
+    path: Assets/Scenes/Saved_Level2-1.unity
+    guid: a5b623acfa36e4dcab3a214f2628a32c
   - enabled: 1
-    path: Assets/Scenes/Level2-2.unity
-    guid: 55aa25713cfee4eac9e02339f945dd94
+    path: Assets/Scenes/Saved_Level2-2.unity
+    guid: 834d5c23f2eba4aa49115f832dc7c592
   - enabled: 1
-    path: Assets/Scenes/Level2-3.unity
-    guid: d7541b5b77ba14f7aaeb1712b258ab66
+    path: Assets/Scenes/SavedLevel2-3.unity
+    guid: 29200c564f34b4110a56a580215a97c7
   - enabled: 1
-    path: Assets/Scenes/Level2-4.unity
-    guid: fb5272bc8dfd14984b333adeda61d786
+    path: Assets/Scenes/SavedLevel2-4.unity
+    guid: 1ecefaac222184ebe91ac63948198bab
   m_configObjects: {}

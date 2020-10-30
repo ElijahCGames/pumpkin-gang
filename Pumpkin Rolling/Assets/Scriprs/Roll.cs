@@ -58,7 +58,7 @@ public class Roll : MonoBehaviour
 
         float speed = lastVel;
 
-        AkSoundEngine.SetRTPCValue("pumpSpeed", speed, GameObject.Find("pumpkinMover"), 0001);
+        AkSoundEngine.SetRTPCValue("pumpSpeed",Mathf.Clamp(speed,0,2), gameObject, 0001);
 
 
     }
