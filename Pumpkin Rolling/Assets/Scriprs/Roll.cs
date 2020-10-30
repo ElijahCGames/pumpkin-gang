@@ -25,6 +25,8 @@ public class Roll : MonoBehaviour
     private float lastVel;
     private float air = 1;
 
+    public AK.Wwise.Event stopEvent;
+
     public delegate void CandyCollected();
     public static event CandyCollected OnCollect;
 
@@ -92,6 +94,9 @@ public class Roll : MonoBehaviour
         else if (other.CompareTag("Finish"))
         {
             other.GetComponent<PlayableDirector>().Play();
+            stopEvent.Post(gameObject);
+            AkSoundEngine.SetRTPCValue("Candy_Count", 0, gameObject, 0100);
+
         }
         else if (other.CompareTag("Candy"))
         {

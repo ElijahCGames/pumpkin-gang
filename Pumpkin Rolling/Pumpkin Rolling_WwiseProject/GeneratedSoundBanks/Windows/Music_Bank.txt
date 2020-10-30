@@ -1,15 +1,22 @@
 Event	ID	Name			Wwise Object Path	Notes
 	452547817	STOP_ALL			\Default Work Unit\STOP_ALL	
-	833230064	Play_Level_1			\Default Work Unit\Play_Level_1	
-	833230067	Play_Level_2			\Default Work Unit\Play_Level_2	
-	2281158242	Stop_Level_1			\Default Work Unit\Stop_Level_1	
+	833230064	Play_Level_1			\Default Work Unit\Music\Play_Level_1	
+	833230066	Play_Level_3			\Default Work Unit\Music\Play_Level_3	
+	833230067	Play_Level_2			\Default Work Unit\Music\Play_Level_2	
+	2837384057	Stop_Music			\Default Work Unit\Music\Stop_Music	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	153087400	pumpSpeed			\Default Work Unit\pumpSpeed	
 	3633174536	Candy_Count			\Default Work Unit\Candy_Count	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	35963672	C	Y:\Game Projects\PumpkinGang\pumpkin-gang\Pumpkin Rolling\Pumpkin Rolling_WwiseProject\.cache\Windows\SFX\mx_level3_t160_m8_c_D79FB2B7.wem		\Interactive Music Hierarchy\GameMusic\Music\Level_3\Level_3\C		2116944
+	355326057	B	Y:\Game Projects\PumpkinGang\pumpkin-gang\Pumpkin Rolling\Pumpkin Rolling_WwiseProject\.cache\Windows\SFX\mx_level2_t090_m32_b_D79FB2B7.wem		\Interactive Music Hierarchy\GameMusic\Music\Level_2\Level_2\B		15052928
+	434067483	C	Y:\Game Projects\PumpkinGang\pumpkin-gang\Pumpkin Rolling\Pumpkin Rolling_WwiseProject\.cache\Windows\SFX\mx_level2_t090_m32_c_D79FB2B7.wem		\Interactive Music Hierarchy\GameMusic\Music\Level_2\Level_2\C		15052928
+	583293417	A	Y:\Game Projects\PumpkinGang\pumpkin-gang\Pumpkin Rolling\Pumpkin Rolling_WwiseProject\.cache\Windows\SFX\mx_level2_t090_m32_a_D79FB2B7.wem		\Interactive Music Hierarchy\GameMusic\Music\Level_2\Level_2\A		15052928
 	601470438	A	Y:\Game Projects\PumpkinGang\pumpkin-gang\Pumpkin Rolling\Pumpkin Rolling_WwiseProject\.cache\Windows\SFX\mx_level1_t094_b16_a_D79FB2B7.wem		\Interactive Music Hierarchy\GameMusic\Music\Level_1\Level_1\A		8088576
+	702858910	A	Y:\Game Projects\PumpkinGang\pumpkin-gang\Pumpkin Rolling\Pumpkin Rolling_WwiseProject\.cache\Windows\SFX\mx_level3_t160_m8_a_D79FB2B7.wem		\Interactive Music Hierarchy\GameMusic\Music\Level_3\Level_3\A		2116944
 	749079644	C	Y:\Game Projects\PumpkinGang\pumpkin-gang\Pumpkin Rolling\Pumpkin Rolling_WwiseProject\.cache\Windows\SFX\mx_level1_t094_b16_c_D79FB2B7.wem		\Interactive Music Hierarchy\GameMusic\Music\Level_1\Level_1\C		8088576
 	898675871	B	Y:\Game Projects\PumpkinGang\pumpkin-gang\Pumpkin Rolling\Pumpkin Rolling_WwiseProject\.cache\Windows\SFX\mx_level1_t094_b16_b_D79FB2B7.wem		\Interactive Music Hierarchy\GameMusic\Music\Level_1\Level_1\B		8088576
+	992534049	B	Y:\Game Projects\PumpkinGang\pumpkin-gang\Pumpkin Rolling\Pumpkin Rolling_WwiseProject\.cache\Windows\SFX\mx_level3_t160_m8_b_D79FB2B7.wem		\Interactive Music Hierarchy\GameMusic\Music\Level_3\Level_3\B		2116944
 

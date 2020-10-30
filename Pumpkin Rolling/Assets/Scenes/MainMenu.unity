@@ -9399,9 +9399,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.5
-  m_Text: 'Getaway
+  m_Text: 'Gourd
 
-    Gourd'
+    Getaway'
 --- !u!222 &2084640384
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9517,6 +9517,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1066883120335568543, guid: 7bd828bd80a54440eae95810d989b02d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1322830391496647178, guid: 7bd828bd80a54440eae95810d989b02d,
         type: 3}
       propertyPath: m_Enabled

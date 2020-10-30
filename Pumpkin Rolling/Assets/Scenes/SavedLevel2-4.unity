@@ -9436,7 +9436,7 @@ MonoBehaviour:
   myEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: e7d2e8dc9718f443b83985c351532efc,
+    WwiseObjectReference: {fileID: 11400000, guid: eedf80589216a40d8b96b83b75cd7859,
       type: 2}
 --- !u!114 &998852397
 MonoBehaviour:

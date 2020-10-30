@@ -16,12 +16,12 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1546231383" Language="SFX" Hash="701212634">
+		<SoundBank Id="1546231383" Language="SFX" Hash="1451932249">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music_Bank</ObjectPath>
 			<ShortName>Music_Bank</ShortName>
 			<Path>Music_Bank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="833230064" Name="Play_Level_1" ObjectPath="\Events\Default Work Unit\Play_Level_1" DurationType="Infinite">
+				<Event Id="833230064" Name="Play_Level_1" ObjectPath="\Events\Default Work Unit\Music\Play_Level_1" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="601470438" Language="SFX">
 							<ShortName>mx_level1_t094_b16_a.wav</ShortName>
@@ -37,9 +37,40 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="833230067" Name="Play_Level_2" ObjectPath="\Events\Default Work Unit\Play_Level_2" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="833230067" Name="Play_Level_2" ObjectPath="\Events\Default Work Unit\Music\Play_Level_2" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="355326057" Language="SFX">
+							<ShortName>mx_level2_t090_m32_b.wav</ShortName>
+							<Path>SFX/mx_level2_t090_m32_b_D79FB2B7.wem</Path>
+						</File>
+						<File Id="434067483" Language="SFX">
+							<ShortName>mx_level2_t090_m32_c.wav</ShortName>
+							<Path>SFX/mx_level2_t090_m32_c_D79FB2B7.wem</Path>
+						</File>
+						<File Id="583293417" Language="SFX">
+							<ShortName>mx_level2_t090_m32_a.wav</ShortName>
+							<Path>SFX/mx_level2_t090_m32_a_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="833230066" Name="Play_Level_3" ObjectPath="\Events\Default Work Unit\Music\Play_Level_3" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="35963672" Language="SFX">
+							<ShortName>mx_level3_t160_m8_c.wav</ShortName>
+							<Path>SFX/mx_level3_t160_m8_c_D79FB2B7.wem</Path>
+						</File>
+						<File Id="702858910" Language="SFX">
+							<ShortName>mx_level3_t160_m8_a.wav</ShortName>
+							<Path>SFX/mx_level3_t160_m8_a_D79FB2B7.wem</Path>
+						</File>
+						<File Id="992534049" Language="SFX">
+							<ShortName>mx_level3_t160_m8_b.wav</ShortName>
+							<Path>SFX/mx_level3_t160_m8_b_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="452547817" Name="STOP_ALL" ObjectPath="\Events\Default Work Unit\STOP_ALL" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="2281158242" Name="Stop_Level_1" ObjectPath="\Events\Default Work Unit\Stop_Level_1" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2837384057" Name="Stop_Music" ObjectPath="\Events\Default Work Unit\Music\Stop_Music" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 			<GameParameters>
 				<GameParameter Id="153087400" Name="pumpSpeed" ObjectPath="\Game Parameters\Default Work Unit\pumpSpeed"/>

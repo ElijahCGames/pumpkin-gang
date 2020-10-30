@@ -34,12 +34,14 @@ public class CameraPostion : MonoBehaviour
     {
         focusPoint = focus.position;
         transform.localRotation = Quaternion.Euler(orbitAngles);
-        Cursor.visible = false;
+        if (isMoving) {
+            Cursor.visible = false;
+        }
     }
 
     private void Update()
     {
-        if (Input.GetKey(KeyCode.Escape))
+        if (Input.GetKey(KeyCode.Escape) || !isMoving)
         {
             Cursor.lockState = CursorLockMode.None;
         }

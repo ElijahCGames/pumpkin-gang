@@ -49,7 +49,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 62d0857ab063ba4a9e1d0861f005ce27
     GuidInternal: 
-    m_lastTime: -8585976024154775808
+    m_lastTime: -8585975681284775808
     List:
     - name: Music_Bank
       guid: 1e26c1f040e02642807edff5edb4f240
@@ -68,17 +68,31 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 9332131a9a827746a8bfe918375f9e9b
     GuidInternal: 
-    m_lastTime: -8585976062934775808
+    m_lastTime: -8585975683614775808
     List:
+    - name: Music
+      guid: 4744c9b1b0778144a9d9e567cf341a11
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 4
+      Path: Default Work Unit/Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Level_1
       guid: 7672488b6673a2449a0437dd05f061ed
       id: 833230064
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Music
+        ObjectType: 4
       - ElementName: Play_Level_1
         ObjectType: 3
-      Path: Default Work Unit/Play_Level_1
+      Path: Default Work Unit/Music/Play_Level_1
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -88,12 +102,28 @@ MonoBehaviour:
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Music
+        ObjectType: 4
       - ElementName: Play_Level_2
         ObjectType: 3
-      Path: Default Work Unit/Play_Level_2
+      Path: Default Work Unit/Music/Play_Level_2
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Play_Level_3
+      guid: be7a9f32fdd0b14dbd910c3ef68ef9a5
+      id: 833230066
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 4
+      - ElementName: Play_Level_3
+        ObjectType: 3
+      Path: Default Work Unit/Music/Play_Level_3
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: STOP_ALL
       guid: c06dd7a17228e34daf44ac2ee3aa559f
       id: 452547817
@@ -106,15 +136,17 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
-    - name: Stop_Level_1
+    - name: Stop_Music
       guid: cd12e64cec8cf747b37933a9b8fe893a
-      id: 2281158242
+      id: 2837384057
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Stop_Level_1
+      - ElementName: Music
+        ObjectType: 4
+      - ElementName: Stop_Music
         ObjectType: 3
-      Path: Default Work Unit/Stop_Level_1
+      Path: Default Work Unit/Music/Stop_Music
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -180,7 +212,6 @@ MonoBehaviour:
   - /Pumpkin Rolling_WwiseProject
   - /Pumpkin Rolling_WwiseProject/Events
   - /Pumpkin Rolling_WwiseProject/Events/Default Work Unit
-  - /Pumpkin Rolling_WwiseProject/SoundBanks
-  - /Pumpkin Rolling_WwiseProject/SoundBanks/Default Work Unit
+  - /Pumpkin Rolling_WwiseProject/Events/Default Work Unit/Music
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
