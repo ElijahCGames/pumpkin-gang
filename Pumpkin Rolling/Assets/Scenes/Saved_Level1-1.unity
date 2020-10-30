@@ -11516,6 +11516,8 @@ GameObject:
   - component: {fileID: 2041113552}
   - component: {fileID: 2041113551}
   - component: {fileID: 2041113550}
+  - component: {fileID: 2041113555}
+  - component: {fileID: 2041113554}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -11607,6 +11609,42 @@ Transform:
   m_Father: {fileID: 701065035}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: -219.2471, z: 0}
+--- !u!114 &2041113554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2041113549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0c63b3e2b92e4988bfbf3fea6ce8131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDefaultListener: 1
+  listenerId: 0
+--- !u!114 &2041113555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2041113549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 344aefabdec1f41a4bd85d1b88866ee9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1 &2044087208
 GameObject:
   m_ObjectHideFlags: 0
